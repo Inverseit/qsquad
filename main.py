@@ -59,4 +59,4 @@ def handler():
 			)
 		return flask.Response(status=200, headers={"Content-Type": "application/json"}, response=json.dumps(params))
 if __name__ == '__main__':
-  app.run(debug=True, port=443, host='127.0.0.1') #Running app
+  app.run(debug=False, port=443, host='127.0.0.1') #Running app
